@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Submission Result</h1>
+    <p>First Name: <span th:text="${user.firstName}"></span></p>
+    <p>Last Name: <span th:text="${user.lastName}"></span></p>
+    <p>Birthday: <span th:text="${parsedDate}"></span></p> <!-- Display formatted date -->
+    <a href="/form">Go Back</a>
+</body>
+</html>
